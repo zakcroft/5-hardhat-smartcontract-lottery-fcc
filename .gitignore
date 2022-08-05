@@ -1,0 +1,16 @@
+node_modules
+img
+artifacts
+cache
+coverage
+.env
+.env.*
+coverage.json
+.idea/
+deployments
+typechain
+typechain-types
+gas-report.txt
+
+
+
