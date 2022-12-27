@@ -11,6 +11,7 @@ deployments
 typechain
 typechain-types
 gas-report.txt
+yarn-error.log
 
 
 
