@@ -179,7 +179,7 @@ contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface, Ownable {
         return NUM_WORDS;
     }
 
-    function getNumberOrPlayers() public view returns (uint256) {
+    function getNumberOfPlayers() public view returns (uint256) {
         return s_players.length;
     }
 
@@ -198,4 +198,8 @@ contract Raffle is VRFConsumerBaseV2, KeeperCompatibleInterface, Ownable {
     function getLastTimeStamp() public view returns (uint256) {
         return s_lastTimeStamp;
     }
+
+    receive() external payable {}
+
+    fallback() external payable {}
 }

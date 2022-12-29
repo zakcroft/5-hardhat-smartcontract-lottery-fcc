@@ -48,5 +48,7 @@ const networkConfig: NetworkConfigType = {
 };
 
 const developmentChains: Array<string> = ["hardhat", "localhost"];
+const frontEndContractsFile = "../6-nextjs-smartcontract-lottery-fcc/constants/contractAddresses.json"
+const frontEndAbiFile = "../6-nextjs-smartcontract-lottery-fcc/constants/abi.json"
 
-export { networkConfig, developmentChains };
+export { networkConfig, developmentChains, frontEndContractsFile, frontEndAbiFile };
